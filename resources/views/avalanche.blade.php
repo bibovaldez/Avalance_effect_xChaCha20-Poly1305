@@ -37,8 +37,6 @@
                                 <th class="border px-4 py-2">Modified Text</th>
                                 <th class="border px-4 py-2">Changed Characters</th>
                                 <th class="border px-4 py-2">Original encrypted length</th>
-                                <th class="border px-4 py-2">Original Entropy</th>
-                                <th class="border px-4 py-2">Modified Entropy</th>
                                 <th class="border px-4 py-2">Encrypted Original</th>
                                 <th class="border px-4 py-2">Encrypted Modified</th>
                             </tr>
@@ -55,8 +53,6 @@
                                     <td class="border px-4 py-2">{{ $modification['modified_text'] }}</td>
                                     <td class="border px-4 py-2">{{ $modification['changed_chars'] }}</td>
                                     <td class="border px-4 py-2">{{ $modification['original_encrypted_length'] }}</td>
-                                    <td class="border px-4 py-2">{{ $modification['original_entropy'] }}</td>
-                                    <td class="border px-4 py-2">{{ $modification['modified_entropy'] }}</td>
                                     <td class="border px-4 py-2">{{ $modification['encrypted_original'] }}</td>
                                     <td class="border px-4 py-2">{{ $modification['encrypted_modified'] }}</td>
                                 </tr>
